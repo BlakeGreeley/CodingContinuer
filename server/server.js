@@ -12,4 +12,3 @@ app.listen(port, () => (`Listening to port: ${port}`));
 
 require('./config/mongoose.config');
 require('./routes/code.route')(app);
-
